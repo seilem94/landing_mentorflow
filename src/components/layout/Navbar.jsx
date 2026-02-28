@@ -37,23 +37,11 @@ export function Navbar({ onCtaClick }) {
           gap: '9px',
         }}
       >
-        <span
-          style={{
-            width: 30,
-            height: 30,
-            borderRadius: 8,
-            background: 'linear-gradient(135deg, var(--amber), var(--amber-dim))',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontFamily: 'var(--font-display)',
-            fontSize: '0.8rem',
-            fontWeight: 800,
-            color: '#0a0a0f',
-          }}
-        >
-          M
-        </span>
+        <img
+          src="/favicon.png"
+          alt="MentorFlow logo"
+          style={{ width: 30, height: 30, objectFit: 'contain' }}
+        />
         {NAV.brand}
       </a>
 
